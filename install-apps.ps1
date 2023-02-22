@@ -15,7 +15,7 @@ winget install ajeetdsouza.zoxide
 winget install Microsoft.PowerShell
 winget install Neovim.Neovim
 winget install M2Team.NanaZip.Preview
-winget add  PostgreSQL.PostgreSQL
+winget install PostgreSQL.PostgreSQL
 winget install PostgreSQL.pgAdmin
 
 # Chocolatey
