@@ -1,6 +1,5 @@
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 
-winget install CoreyButler.NVMforWindows
 winget install Mozilla.Firefox.DeveloperEdition
 winget install Google.Chrome.Dev
 winget install Microsoft.VisualStudioCode
@@ -23,3 +22,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 choco install bat -y
 choco install make -y
+choco install fnm -y
+
+# Setup FNM (Faster NVM)
+echo "fnm env --use-on-cd | Out-String | Invoke-Expression" >> $PROFILE
